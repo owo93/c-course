@@ -17,8 +17,8 @@ git clone https://github.com/owo93/c-course
 ## 📃 Adding an Assignment
 
 1. Navigate to the cloned repository's directory.
-2. Create a new file or directory for your assignment.
-3. Add your assignment files to this new directory.
+2. **Create a new file**: Navigate to the appropriate directory (for example, `week-03`), and create your new file there. An example of a file name could be `assignment-1.c`.
+3. After making your changes to the repository, run the following commands to commit your changes to the local repository
 
 ```bash
 git add .
@@ -34,3 +34,8 @@ git commit -m "Add your commit message here
 ```bash
 git push
 ```
+
+### ❓ Questions
+
+> [!NOTE]
+> Feel free to reach out to me if you have any questions or need help with this project.
