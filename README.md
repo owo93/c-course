@@ -1,7 +1,5 @@
 # Using this project
 
----
-
 ## ⏬ Cloning the Repository
 
 1. Open your terminal.
