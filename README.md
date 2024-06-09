@@ -7,7 +7,7 @@
 3. Run the following command:
 
 ```bash
-git clone https://github.com/owo93/c-course
+$ git clone https://github.com/owo93/c-course
 ```
 
 4. Now, you have a local copy of your repository.
@@ -15,12 +15,20 @@ git clone https://github.com/owo93/c-course
 ## 📃 Adding an Assignment
 
 1. Navigate to the cloned repository's directory.
-2. **Create a new file**: Navigate to the appropriate directory (for example, `week-03`), and create your new file there. An example of a file name could be `assignment-1.c`.
-3. After making your changes to the repository, run the following commands to commit your changes to the local repository
+2. Create and switch to your corresponding branch by running:
+  ```bash
+  $ git switch student/YOUR_FIRST_NAME
+  ```
+4. **Create a new file**: Navigate to the appropriate directory (for example, `week-03`), and create your new file there. An example of a file name could be `assignment-1.c`.
+  ```bash
+  $ mkdir -p week-03
+  $ touch assignment-1.c
+  ```
+6. After making your changes to the repository, run the following commands to commit your changes to the local repository
 
 ```bash
-git add .
-git commit -m "Add your commit message here
+$ git add .
+$ git commit -m "Add your commit message here
 ```
 
 ## 🔄 Syncing the Changes with Git
@@ -30,7 +38,7 @@ git commit -m "Add your commit message here
 3. After making your changes to the repository. *see [Adding an Assignment](#-adding-an-assignment) for more information.* run the following:
 
 ```bash
-git push
+$ git push
 ```
 
 ### ❓ Questions
