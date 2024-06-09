@@ -1,4 +1,4 @@
-# Using this project
+# :clown: Using this project
 
 ## ⏬ Cloning the Repository
 
